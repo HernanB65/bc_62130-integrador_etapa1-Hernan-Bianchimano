@@ -1,0 +1,61 @@
+/* ----------------------------------------- */
+/* FOOTER                                    */
+/* ----------------------------------------- */
+
+footer {
+    background-color: rgb(229, 116, 99);
+    text-align: center; /* Para centrar el contenido del footer */
+    padding: 20px 0; /* Agregar un poco de espacio alrededor del contenido */
+    font-size:larger;
+  }
+   
+  /* Estilos para el botón principal */
+  .main-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: 700px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 40px 40px; /* Agregar espacio horizontal entre elementos */
+  }
+  
+  /* Estilos para el grupo de botones sociales */
+  .social-buttons {
+    margin-top: 1px;
+  }
+  
+  .social-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .center-logos {
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 900px;
+  }
+  
+  .right-logo {
+    text-align: right;
+    margin-top: 10px;
+    
+  }
+  
+  /* Estilos para los enlaces */
+  .ig_base, .twitter_base, .facebook_button {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Estilos para los enlaces al pasar el mouse por encima */
+  .private_weirdo:hover, .ig_base:hover, .twitter_base:hover, .facebook_button:hover {
+    text-decoration: underline;
+  }
+  
