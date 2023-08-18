@@ -11,8 +11,6 @@
       flex-direction: column-reverse;
     }
   }
-
-
 }
 
 #menu {
@@ -22,10 +20,9 @@
     display: block;
   }
 
-  &:checked ~ .search-bar .menu-toogle__label {
-    background-color: yellow;
+  &:checked ~ .search-bar .menu-toggle__label {
+    background-color: black;
   }
-
 }
 
 /* ------------------------------------- */
@@ -33,7 +30,7 @@
 /* ------------------------------------- */
 
 .nav-bar {
-  background-color: mediumaquamarine;
+  background-color: #fff;
 
   &__nav-list {
     display: flex;
@@ -53,9 +50,13 @@
   }
 
   &__nav-link {
-    display: block;
-    background-color: purple;
+    display:inline-flex;
+    background-color: rgb(229, 116, 99);
     color: #fff;
+    font-size: 20px;
+
+    
+    font-weight: 800;
     padding: 1em 2em;
     text-decoration: none;
   }
@@ -78,42 +79,44 @@
 
   &__logo-container,
   &__form-container {
-    padding: 1em;
+    padding: 2em;
   }
 
   &__logo-container {
-    background-color: yellow;
+    background-color: crimson;
+    flex: 0 0 6em;
   }
 
   &__form-container {
-    background-color: gold;
+    background-color: rgb(140, 211, 140);
     display: flex;
     flex-basis: 100%;
     justify-content: center;
   }
 
   &__form-label {
-    background-color: greenyellow;
+    background-color: grey; 
+    color: #fff; 
   }
 
   &__form-search {
-    background-color: deeppink;
+    background-color: white;
     width: 70%;
   }
 
   &__form-submit {
-    background-color: darkslategray;
+    background-color: grey;
     color: white;
   }
 
   &__carrito-container {
-    flex: 0 0 3em; /* shorthand (grow shrink basis */
-    background-color: goldenrod;
+    flex: 0 0 6em; /* shorthand (grow shrink basis */
+    background-color: greenyellow;
   }
 }
 
 /* ------------------------------------- */
-/* MENU TOOGLE                           */
+/* MENU TOGGLE                           */
 /* ------------------------------------- */
 
 .menu-toggle {
