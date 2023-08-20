@@ -1,0 +1,14 @@
+.hidden-content {
+    background-color: #fff;
+    text-align: center;
+}
+
+#nosotros-content:target {
+    display: block;
+}
+
+#nosotros-content:not target {
+    display: none;
+}
+
+
