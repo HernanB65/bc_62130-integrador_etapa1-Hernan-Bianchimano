@@ -6,21 +6,25 @@ footer {
     background-color: rgb(231, 225, 223);
     border: 1px solid black;
     text-align: center; /* Para centrar el contenido del footer */
-    padding: 20px 0; /* Agregar un poco de espacio alrededor del contenido */
+    padding: 1px 0; /* Agregar un poco de espacio alrededor del contenido */
     font-size:larger;
+
+    header {
+      padding: 30px;
+    }
   }
-   
+
   /* Estilos para el botón principal */
   .main-button {
     display: inline-block;
     padding: 5px 10px;
     background-color: blueviolet;
     color: #fff;
-    font-weight: 700;
+    font-weight: 300;
     text-decoration: none;
     border-radius: 10px;
     border: 3px solid black;
-    margin: 40px 40px; /* Agregar espacio horizontal entre elementos */
+    margin: 10px 40px; /* Agregar espacio horizontal entre elementos */
   }
   
   /* Estilos para el grupo de botones sociales */
@@ -31,7 +35,7 @@ footer {
   .social-buttons a {
     display: inline-block;
     margin-right: 10px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: black;
     text-decoration: none;
     border: 3px solid black;
@@ -47,7 +51,6 @@ footer {
   .right-logo {
     text-align: right;
     margin-top: 10px;
-    
   }
   
   /* Estilos para los enlaces */
@@ -59,5 +62,11 @@ footer {
   /* Estilos para los enlaces al pasar el mouse por encima */
   .private_weirdo:hover, .ig_base:hover, .twitter_base:hover, .facebook_button:hover {
     text-decoration: underline;
+  }
+
+  .weirdo-fish {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 150px;
   }
   

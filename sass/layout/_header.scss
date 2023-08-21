@@ -58,8 +58,10 @@
   &__nav-link {
     display: inline-flex;
     background-color: rgb(231, 225, 223);
-    color: black;
+    color: blueviolet;
     font-size: 20px;
+    font-weight: 800;
+
     padding: 1em 2em;
     text-decoration: none;
   }
@@ -90,6 +92,9 @@
   &__logo-container {
     background-color: rgb(223, 162, 207);
     flex: 0 0 6em;
+    font-weight: 600;
+    color: blueviolet;
+    cursor:pointer
   }
 
   &__form-container {
@@ -100,8 +105,12 @@
   }
 
   &__form-label {
-    background-color: grey;
+    background-color: blueviolet;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    border: 1px solid black;
+    cursor: pointer;
   }
 
   &__form-search {
@@ -110,13 +119,17 @@
   }
 
   &__form-submit {
-    background-color: grey;
+    background-color: blueviolet;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    cursor: pointer;
   }
 
   &__carrito-container {
-    flex: 0 0 6em; /* shorthand (grow shrink basis */
+    flex: 0 0 5em; /* shorthand (grow shrink basis */
     background-color: greenyellow;
+    cursor: pointer;
   }
 }
 
