@@ -36,6 +36,7 @@
 
 .nav-bar {
   background-color: rgb(231, 225, 223);
+  border: 1px solid black;
 
     &__nav-list {
     display: flex;
@@ -76,6 +77,8 @@
 
 .search-bar {
   background-color: rgb(140, 147, 126);
+  border: 1px solid black;
+  border-top: 0;
   display: flex;
   justify-content: space-between;
 
