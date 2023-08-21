@@ -5,6 +5,7 @@
 .main-header {
   display: flex;
   flex-direction: column;
+   
 
   @media (max-width: 768px) {
     & {
@@ -34,7 +35,7 @@
 /* ------------------------------------- */
 
 .nav-bar {
-  background-color: rgb(229, 116, 99);
+  background-color: rgb(231, 225, 223);
 
     &__nav-list {
     display: flex;
@@ -55,7 +56,7 @@
 
   &__nav-link {
     display: inline-flex;
-    background-color: rgb(229, 116, 99);
+    background-color: rgb(231, 225, 223);
     color: black;
     font-size: 20px;
     padding: 1em 2em;
@@ -74,7 +75,7 @@
 /* ------------------------------------- */
 
 .search-bar {
-  background-color: olivedrab;
+  background-color: rgb(140, 147, 126);
   display: flex;
   justify-content: space-between;
 
@@ -84,12 +85,12 @@
   }
 
   &__logo-container {
-    background-color: crimson;
+    background-color: rgb(223, 162, 207);
     flex: 0 0 6em;
   }
 
   &__form-container {
-    background-color: rgb(140, 211, 140);
+    background-color: rgb(231, 225, 223);
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -101,7 +102,7 @@
   }
 
   &__form-search {
-    background-color: #fff;
+    background-color: #ddc9e0bc;
     width: 70%;
   }
 
