@@ -68,5 +68,20 @@ footer {
     text-align: left;
     padding-top: 10px;
     padding-left: 150px;
+    position: absolute;
+  }
+
+  .weirdo-fish img {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
+
+  .weirdo-fish:hover img {
+    transform: translateX(100px);
   }
   
+  
+
+   
