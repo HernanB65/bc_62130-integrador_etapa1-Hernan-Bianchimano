@@ -1,4 +1,4 @@
-# Para comezar a desarrollar
+# Para comenzar a desarrollar
 
 ## Instalo las dependencias (leer el archivo package.json)
 
