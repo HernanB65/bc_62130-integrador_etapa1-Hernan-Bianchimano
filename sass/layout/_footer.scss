@@ -82,6 +82,19 @@ footer {
     transform: translateX(100px);
   }
   
+  @media screen and (max-width: 600px) {
+    .weirdo-fish {
+      text-align: center;
+      padding: 10px;
+      position: static;
+    }
+
+    .weirdo-fish img {
+      max-width: 100%;
+      height: auto;
+      transform: none;
+    }
+  }
   
 
    
